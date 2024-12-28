@@ -1,0 +1,35 @@
+/*
+Colors :
+    Background - 
+    Navigation bar - 
+
+Fonts :
+    : Helvetica, Arial, Sans-serif
+
+*/
+
+
+/* Body should have a light bg color */
+body {
+    background-color: wheat;
+    text-decoration: none;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* All lists shouldnt have the bullet points */
+li {
+    list-style-type: none;
+}
+.recipe-list li a {
+    text-decoration: none;
+}
+
+
+footer {
+    height: 400px;
+    background-color: slategrey;
+    position: fixed;
+}
